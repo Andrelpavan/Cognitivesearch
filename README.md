@@ -1,23 +1,24 @@
 # Azure Cognitive Search
 
-Desafio do Azure Cognitive Search. Utilizando AI Search para indexação e consulta de Dados
+✳️Desafio do Azure Cognitive Search. Utilizando AI Search para indexação e consulta de Dados
+__________________________
 
-Descrição do Projeto
-
+**Descrição do Projeto**
+__________________________
 Segue abaixo a descrição dos passos utilizados para realizar o desafio de configurar um consulta de dados.
 
-Passo 1:
+**Passo 1:**
 - Primeiramente criei um Serviço de Pesquisa no Azure Cognitive Search no portal do Azure (https://portal.azure.com/).
 - Cliquei em "Criar um recurso" e pesquisei por "Pesquisa Cognitiva do Azure".
 - Siguindo as instruções para configurar o serviço, fornecendo um nome único, selecionando a assinatura, grupo de recursos, localização, nível de preços, etc.(fonte: https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/11-ai-search.html)
 ![image](https://github.com/Andrelpavan/Cognitivesearch/assets/69944259/6e85d544-a6bc-464b-a3f0-d64247ffeabb)
 ![image](https://github.com/Andrelpavan/Cognitivesearch/assets/69944259/0f49d5e5-ab9e-4008-815b-8556d7de56ac)
 
-Passo 2:
+**Passo 2:**
 - Em seguida criei um recurso de serviços de IA esteja no mesmo local que seu recurso de Pesquisa para auxiliar na solução de pesquisa nos dados armazedos.
 ![image](https://github.com/Andrelpavan/Cognitivesearch/assets/69944259/b2d7e454-d44e-45b8-a6af-4ee964cfa27e)
 
-Passo 3:
+**Passo 3:**
 - Neste passo criei uma conta de armazenamento onde os dados que deseja indexar serão colocados. Em seguida, configurando e carregando os dados para armazenar.
 ![image](https://github.com/Andrelpavan/Cognitivesearch/assets/69944259/f5d2eb04-1c2b-4b9e-b4bc-5f657822a487)
 ![image](https://github.com/Andrelpavan/Cognitivesearch/assets/69944259/053e243f-e3a8-4993-ae76-e8b61633d828)
@@ -32,12 +33,12 @@ Conectai à sua origem de dados e configurei as opções de conexão conforme ne
 
 Após configurar o indexador e ter os dados armazenados, iniciei o processo de indexação. Isso fez com que o Azure Cognitive Search puxou os dados da sua origem de dados e os indexe de acordo com o índice definido.
 
-Passo 4:
+**Passo 4:**
 -  Pesquisa - Consultar o índice
 Depois que a indexação foi concluída, foi para a seção "Gerenciados de Consultas" para realizar as consultas de pesquisa para assegurar que os resultados sejam retornados conforme o esperado.
 ![image](https://github.com/Andrelpavan/Cognitivesearch/assets/69944259/ca4baec0-a9f4-43ca-90ee-f98721ee4d83)
 
-Considerações finais
+**Considerações finais**
 
 Neste módulo do Azure Cognitive Search possibilitou entender de como podemos facilitar a descoberta de informações relevantes em grandes conjuntos de dados. Ao criar indexação e consulta de dados, o serviço permite transformar dados em um formato que possa ser facilmente pesquisado e analisado.
 
