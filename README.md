@@ -2,6 +2,8 @@
 
 Desafio do Azure Cognitive Search. Utilizando AI Search para indexação e consulta de Dados
 
+Descrição do Projeto
+
 Segue abaixo a descrição dos passos utilizados para realizar o desafio de configurar um consulta de dados.
 
 Passo 1:
@@ -34,6 +36,8 @@ Passo 4:
 -  Pesquisa - Consultar o índice
 Depois que a indexação foi concluída, foi para a seção "Gerenciados de Consultas" para realizar as consultas de pesquisa para assegurar que os resultados sejam retornados conforme o esperado.
 ![image](https://github.com/Andrelpavan/Cognitivesearch/assets/69944259/ca4baec0-a9f4-43ca-90ee-f98721ee4d83)
+
+Considerações finais
 
 Neste módulo do Azure Cognitive Search possibilitou entender de como podemos facilitar a descoberta de informações relevantes em grandes conjuntos de dados. Ao criar indexação e consulta de dados, o serviço permite transformar dados em um formato que possa ser facilmente pesquisado e analisado.
 
